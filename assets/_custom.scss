@@ -1,3 +1,38 @@
 /* You can add custom styles here. */
 
 // @import "plugins/numbered";
+
+.container{
+    margin: 0 auto;
+    max-width: none;
+}
+
+.book-menu {
+    flex: 0 0 18rem;
+    font-size: 1rem;
+}
+
+.markdown {
+    line-height: 2.2;
+    max-width: 70rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.book-page {
+    margin: 1.5rem;
+}
+
+.book-toc .book-toc-content {
+    padding-top: 4rem;
+}
+
+.book-toc {
+    flex: 0 0 18rem;
+    font-size: .75rem;
+}
+
+.book-toc .book-toc-content nav ul li {
+    line-height: 1.2;
+    font-size: .875rem;
+}
